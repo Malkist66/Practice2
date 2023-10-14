@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+        <meta name="viewport" content="width-device-width,intial-scale=1.0">
+        <style>
+            body {
+                background-image: linear-gradient(to bottom right, rgba(102, 204, 255,0.5), rgba(204, 102, 255,0.5)),
+                url(https://c1.wallpaperflare.com/preview/96/339/788/dam-reservoir-water-hill.jpg);
+                background-size: contain, cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                font-family: 'Acme';
+                text-align: center;
+            }
+            form {
+                padding-left: 35px;
+                padding-right: 45px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                margin: 50px 2em 0 2em;
+                background-color: rgba(255, 153, 0,0.3);
+                border-radius: 20px;
+            }
+            .image1{
+                width: 90%;
+                height: auto;
+                border-radius: 10px;
+            }
+            .info{
+                padding-left: 45px;
+                padding-right: 55px;
+                margin: 50px 2em 0 2em;
+            }
+            #bullets{
+                padding-left: 90px;
+                padding-right: 100px;
+                margin: 50px 2em 0 2em;
+                text-align: left;
+            }
+
+            @media screen and (max-width: 500px){
+                .responsive{
+                    padding: 10px 10px;
+                    margin: 10px 10px
+                }  
+                #bullets{
+                    padding: 26px 26px;
+                    margin: 10px 10px
+                }              
+            }
+        </style>
+        <title>
+            Page Title!
+        </title>
+    </head>
+
+
+    <body>
+        <h1 id="myHeader">Project Title</h1>
+        <form class="responsive">
+            <h2>Hello World!!!</h2>
+            <img class="image1" src="https://c1.wallpaperflare.com/preview/96/339/788/dam-reservoir-water-hill.jpg" alt="Dam">
+            <div class="info">
+                <h3>Component Name</h3>
+                <p>Description</p>
+            </div>
+            <div id="bullets">
+                <ul>
+                    <li>Point 1</li>
+                    <li>Point 2</li>
+                </ul>
+            </div>
+        </form>
+    </body>
+</html>
